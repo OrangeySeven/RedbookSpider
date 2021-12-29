@@ -19,13 +19,12 @@ def header():
     'Accept-Encoding':'gzip, deflate, br',
     'Accept-Language':'zh-cn',
     'Connection':'keep-alive',
-    'Device-Fingerprint': 'WHJMrwNw1k/GlXqZzeuw8+tSQY4MXwq6dZ2nKzuBmvUOQrof1RlMW08Eos7yVvMgVhnYkWA10aq1rj6WzyrssBJh3Fx6nPiKJdCW1tldyDzmauSxIJm5Txg==1487582755342',
-   # 'Cookie':'xhsTrackerId=6e0e0a57-717f-4d5e-cd99-613d9a5ca9c4; extra_exp_ids=; xhs_spid.5dde=eff4c944cdbf9565.1568039581.1.1568040423.1568039581.acafa140-1747-4aee-acdc-c58603b59b4f; xhs_spses.5dde=*',
+    'Device-Fingerprint':,
+   # 'Cookie':,
     'Host':'www.xiaohongshu.com',
     'Referer':'https://servicewechat.com/wxffc08ac7df482a27/346/page-frame.html',
-    'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 MicroMessenger/7.0.9.501 NetType/WIFI MiniProgramEnv/Windows WindowsWechat',
-    'X-Sign':'X95259a5dad05dac65fe7b3750916b652',
-    'Authorization':'50505c06-6584-4278-8b97-e27a905fa996',
+    'User-Agent':,
+    'Authorization':,
     }
     return headers
 
@@ -34,11 +33,11 @@ def html_header():
     'Accept-Encoding':'gzip, deflate, br',
     'Accept-Language':'zh-cn',
     'Connection':'keep-alive',
-    'Device-Fingerprint': 'WHJMrwNw1k/GlXqZzeuw8+tSQY4MXwq6dZ2nKzuBmvUOQrof1RlMW08Eos7yVvMgVhnYkWA10aq1rj6WzyrssBJh3Fx6nPiKJdCW1tldyDzmauSxIJm5Txg==1487582755342',
-    'Cookie':'xhsTrackerId=19b877cc-5a36-4243-c2aa-044e4fe51696; extra_exp_ids=gif_clt1|ques_clt1; timestamp1=258918568; hasaki=JTVCJTIyTW96aWxsYSUyRjUuMCUyMChXaW5kb3dzJTIwTlQlMjAxMC4wJTNCJTIwV09XNjQpJTIwQXBwbGVXZWJLaXQlMkY1MzcuMzYlMjAoS0hUTUwlMkMlMjBsaWtlJTIwR2Vja28pJTIwQ2hyb21lJTJGODAuMC4zOTg3LjEzMiUyMFNhZmFyaSUyRjUzNy4zNiUyMiUyQyUyMnpoLUNOJTIyJTJDMjQlMkMtNDgwJTJDdHJ1ZSUyQ3RydWUlMkN0cnVlJTJDJTIydW5kZWZpbmVkJTIyJTJDJTIyZnVuY3Rpb24lMjIlMkNudWxsJTJDJTIyV2luMzIlMjIlMkM0JTJDNCUyQ251bGwlMkMlMjJDaHJvbWUlMjBQREYlMjBQbHVnaW4lM0ElM0FQb3J0YWJsZSUyMERvY3VtZW50JTIwRm9ybWF0JTNBJTNBYXBwbGljYXRpb24lMkZ4LWdvb2dsZS1jaHJvbWUtcGRmfnBkZiUzQkNocm9tZSUyMFBERiUyMFZpZXdlciUzQSUzQSUzQSUzQWFwcGxpY2F0aW9uJTJGcGRmfnBkZiUzQk5hdGl2ZSUyMENsaWVudCUzQSUzQSUzQSUzQWFwcGxpY2F0aW9uJTJGeC1uYWNsfiUyQ2FwcGxpY2F0aW9uJTJGeC1wbmFjbH4lMjIlMkMzNDQxOTcwNDc3JTVE; timestamp2=e900d18af4a531aa4437e5cd045b5c24',
+    'Device-Fingerprint': ,
+    'Cookie':,
     'Host':'www.xiaohongshu.com',
-    'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
-    'X-Sign':'X97983f0e1bc015c942bd8e7d40502480',        
+    'User-Agent':,
+    'X-Sign':,      
     }
     return headers
 # 解析Json数据
